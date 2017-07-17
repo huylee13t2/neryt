@@ -1,0 +1,55 @@
+@media (min-width: 1200px) {
+	/*====== home ======*/
+	/*.video > img{
+		height: 162px;
+	}
+	.adHolder{
+		min-height: 240px;
+	}*/
+
+	/* ======= dmca =========*/
+	.about .title_h3{
+		font-size: 38px;
+	}
+	.dmca{
+		padding-bottom: 40px;
+	}
+}
+
+@media (max-width: 1199px) {
+	/*====== home ======*/
+	.video > img{
+		/*height: 284px;*/
+	}
+	.adHolder{
+		min-height: 240px;
+	}
+
+	/* ======= dmca =========*/
+	.about .title_h3{
+		font-size: 34px;
+	}
+	.dmca{
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 424px) {
+
+}
+
+@media (max-width: 374px) {
+
+}
+
+@media (max-width: 319px) {
+
+}

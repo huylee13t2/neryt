@@ -1,0 +1,213 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="categoryInner row">
+	<h3 class="content_title">Viewing: <span class="tags btn btn-info btn-xs"><i class="fa fa-bars" style="margin-right: 5px;"></i>{{ pk }}</span></h3>
+	{% for post in list %}
+	<div class="col-md-2 post category_ctn">
+		<div class="video">
+			<img src="{{ post.image }}">
+			<a href="{% url 'video' post.id %}" class="overlay_link" title="{{ post.title }}"></a>
+			<div class="meta">
+				<h4 class="title"><a href="#">{{ post.title }}</a></h4>
+				<div class="category"><a href="#">{{ post.content }}</a></div>
+				<div class="play"><i class="fa fa-play-circle"></i></div>
+				<div class="stats">
+					<span class="sl_wrap"><i class="fa fa-eye"></i><a href="#" class="stat_link">15</a></span>
+					<span class="sl_wrap"><i class="fa fa-heart-o"></i><a href="#" class="stat_link">97</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	<div class="ctn_pagination">
+		{% if contacts.has_other_pages %}
+		<ul class="pagination">
+			{% if contacts.has_previous %}
+			<li><a href="?page={{ contacts.previous_page_number }}">&laquo;</a></li>
+			{% else %}
+			<li class="disabled"><span>&laquo;</span></li>
+			{% endif %}
+			{% for i in contacts.paginator.page_range %}
+			{% if contacts.number == i %}
+			<li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+			{% else %}
+			<li><a href="?page={{ i }}">{{ i }}</a></li>
+			{% endif %}
+			{% endfor %}
+			{% if contacts.has_next %}
+			<li><a href="?page={{ contacts.next_page_number }}">&raquo;</a></li>
+			{% else %}
+			<li class="disabled"><span>&raquo;</span></li>
+			{% endif %}
+		</ul>
+		{% endif %}
+	</div>
+</div>
+
+<div class="related_bot content_related">
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/887434/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/j0qy/c767e3d999e1566aaa6827acfaed936a0|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/j0qy/4e4bcd8d1a9a5182c8593b6264fd6d7b0|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">Hot latina teen Lupe fucking in the living room</a>
+				</div>
+			</div>
+		</div>
+	</div> 
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1045743/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/mewf/1dd8ef22ee25cd307d5c4dddfed666361|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/mewf/8b2bc3aa43aea0dc0e81acdc1c279a581|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">+ 4,6 CM trong 2 tuáº§n mÃ&nbsp; khÃ´ng cáº§n pháº«u thuáº­t</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1016228/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/ls4k/a420969e898bcbf08382f2d4ebd292872|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/ls4k/9f279203203b7d5a18328651db0d13172|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">A Drunk Mother Makes A Huge Mistake</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1049507/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/mhsz/2cc0f94d6d6d9b4bef5ce19a71dccde83|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/mhsz/0f648933c7581022b1b44f24915b025d3|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">BÃ­ quyáº¿t tÃ´i thá»§ dÃ¢m Äá» tÄng kÃ­ch cá»¡ dÆ°Æ¡ng váº­t!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1016227/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/ls4j/c932b459297e591adf542912daa205567|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/ls4j/8ab6edfc2702636aea1a9e7ef4d3afce7|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">Mom Enters The Wrong Place</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1049912/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/mi48/c79a4ae234aa6fbe47db444fefee83824|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/mi48/20f44d617020c9f07721971c5e12dbd44|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">BÃ­ quyáº¿t tÃ´i thá»§ dÃ¢m Äá» tÄng kÃ­ch cá»¡ dÆ°Æ¡ng váº­t!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1052670/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/mk8u/1edd66d773d7f64285d0dd96713e85e15|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/mk8u/1455448dadd1d0285977f52f22e4099e5|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">Váº¤N Äá» kÃ­ch cá»¡ - cÃ¡ch Äá» trá» thÃ&nbsp;nh quÃ½ Ã´ng háº¥p dáº«n</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1016227/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/ls4j/c932b459297e591adf542912daa205567|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/ls4j/8ab6edfc2702636aea1a9e7ef4d3afce7|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">Mom Enters The Wrong Place</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1045744/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/mewg/d9e8e173e83ecf5269d008e4574845596|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/mewg/19834bbf1649989dae6d903a76bcd3756|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">Má»t phÆ°Æ¡ng phÃ¡p Äá»c ÄÃ¡o</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="adHolder related_video">
+		<div class="ad">
+			<div class="thumb">
+				<div class="imgwrapper" style="background:url('//prstatics.com/prplugs/0/1016227/240x180.jpg') no-repeat scroll center center transparent;height:167px;">
+					<a href="//prwidgets.com/t/isek/ls4j/c932b459297e591adf542912daa205567|1499679946/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">
+						<img class="image_tag" style="height:100%;width:100%;" src="//static.plugrush.com/img/trans.png">
+					</a>
+				</div>
+			</div>
+			<div class="descriptionwrapper">
+				<div class="description">
+					<a href="//prwidgets.com/t/isek/ls4j/8ab6edfc2702636aea1a9e7ef4d3afce7|1499680679/aHR0cDovL25lcnl0LmNvbS9zaHktY3V0aWUtdGFrZXMtYS1tb3V0aGZ1bC8=" target="_blank">Mom Enters The Wrong Place</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+{% endblock %}

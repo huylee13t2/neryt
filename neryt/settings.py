@@ -25,7 +25,7 @@ SECRET_KEY = 'joec@d_eb)lcruf#_)b!&5)=0a)j%u9w!y6r*3l@9*%osdm*-e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.27', 'localhost', 'api.tube8.com']
+ALLOWED_HOSTS = ['192.168.1.27', 'localhost', 'api.tube8.com', 'neryt.pythonanywhere.com']
 
 
 # Application definition
